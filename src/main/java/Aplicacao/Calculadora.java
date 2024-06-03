@@ -1,7 +1,8 @@
 package Aplicacao;
 
-public class Calculadora {
+import java.util.logging.Logger;
 
+public class Calculadora {
     public Operacoes calcular(Operacoes operacao) {
         switch (operacao.getOperador()) {
             case '+':
